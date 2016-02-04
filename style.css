@@ -115,9 +115,12 @@ p{
 .article{
 	margin-bottom: 1em;
 }
-p, h3, .job-tags{
+p, h3, .tags{
 	margin:0;
 	padding: 0 16px 0 16px;
+}
+.tags{
+	margin-bottom: 1em;
 }
 
 .main-content{	
@@ -138,7 +141,14 @@ div > a{
 i{
 	color: #216265;
 }
-
+.imgs{
+	
+	background: url(https://38.media.tumblr.com/651dfaed378e9a1f780f50cad8ef7ed1/tumblr_mkneytF4mQ1rsdpaso1_500.gif) no-repeat;
+	margin: 0 auto;
+	width: 90%;
+	height: 300px;
+	background-position: center;
+}
 
 footer {
     
