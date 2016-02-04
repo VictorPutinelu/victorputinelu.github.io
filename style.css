@@ -3,7 +3,9 @@
 }
 body{
 	padding-top: 34px;
+	background: url(img/congruent_outline.png);
 }
+
 h1{
 	color: white;
 }
@@ -21,13 +23,24 @@ p{
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: #f3f3f3;	
+	background: #333;	
 }
-/*Inutile*/
-.nav-bar > div>  a{
-	font-weight: bold;
+
+/*LOGO*/
+.pure-menu-heading{
+	color: #f3f3f3;
 	text-transform: inherit;
 }
+
+.pure-menu-item > .pure-menu-link{
+	color: #f3f3f3;
+
+}
+.pure-menu-link:hover, .pure-menu-link:active, .pure-menu-link:focus{
+	background: #565d64;
+
+}
+
 .div-right{
 	text-align: right;
 }
@@ -35,7 +48,6 @@ p{
 	overflow: hidden;
 	width: 100%;
 	height: 80vh;
-	
   	background: url(img/temporary-landing-background.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -63,11 +75,22 @@ p{
 .splash {
 	font-size: 150%;
 	color: #f3f3f3;	
+	font-weight: 100;
 }
 .splash > h1{
 	border: 3px solid #f3f3f3;
-	border-radius: 5px;
-	padding: 1em 1.6em;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 1em 1.5em;
+	margin-bottom: 0;
+}
+.splash > .subtitle{
+	background:#f3f3f3; 
+	color:#216265;
+	padding: 15px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+
 }
 
 
@@ -104,19 +127,22 @@ p, h3, .job-tags{
 }
 
 .column-title{
-	color: green;
+	color: #216265;
 }
 
 
 div > a{
-	color:#888;
+	color: #888;
 }
 
 i{
-	color: green;
+	color: #216265;
 }
 
 
 footer {
     
 }
+
+
+
