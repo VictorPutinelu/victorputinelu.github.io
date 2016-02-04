@@ -1,6 +1,8 @@
+*{
+	font-family: "Verdana", sans-serif;
+}
 body{
 	padding-top: 34px;
-
 }
 h1{
 	color: white;
@@ -57,16 +59,45 @@ p{
 	text-align: center;
 
 }
+
+.splash {
+	font-size: 150%;
+	color: #f3f3f3;	
+}
 .splash > h1{
-	font-size: 300%;
-	color: #f3f3f3;
 	border: 3px solid #f3f3f3;
 	border-radius: 5px;
 	padding: 1em 1.6em;
 }
 
-.main-content{	
 
+/*CONTENT*/
+/*News*/
+.pub-date{
+	margin: 0;
+	margin-left: 1em;
+	padding: 0;
+	list-style: none;
+}
+.pub-date > .month, .num-day{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+.num-day{
+	font-size: 1.8em;
+ }
+
+/*JOBS*/
+.article{
+	margin-bottom: 1em;
+}
+p, h3, .job-tags{
+	margin:0;
+	padding: 0 16px 0 16px;
+}
+
+.main-content{	
 	margin: 0 auto;
 	background: #f3f3f3;
 	max-width: 64em;
@@ -75,6 +106,17 @@ p{
 .column-title{
 	color: green;
 }
+
+
+div > a{
+	color:#888;
+}
+
 i{
-	color:green;
+	color: green;
+}
+
+
+footer {
+    
 }
