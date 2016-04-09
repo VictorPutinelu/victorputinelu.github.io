@@ -23,12 +23,20 @@ body{
 
 .lion-title, .lion-paragraph{
 	margin:0;
+	padding: 0;
 }
 
 .lion-title{
 	padding-right:15px;
 	text-align: right;
 }
+
+.subtitle{
+	color: #999;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+}
+
 .lion-paragraph{
 	padding:0 15px;
 	text-align: left;
@@ -41,7 +49,6 @@ body{
 }
 
 .next{
-
 	display: inline-block;/*inner - div align center*/
 	margin:0 auto;
 	position:fixed;
@@ -51,6 +58,10 @@ body{
 }
 
 .line{
+
+}
+
+.next > .line{
 	cursor: pointer;
 	position: absolute;
 	bottom: 25px;
@@ -60,12 +71,16 @@ body{
 	margin: 0;
 	padding: 0;
 }
-.custom-line1{
+.next > .line:hover{
+	background: #999;
+}
+
+.next > .custom-line1{
 
 	transform: rotate(45deg);
 }
 
-.custom-line2{
+.next > .custom-line2{
 	margin-left: 35px;
 	transform: rotate(315deg);
 }
