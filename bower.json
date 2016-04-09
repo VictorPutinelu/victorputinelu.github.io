@@ -1,0 +1,21 @@
+{
+  "name": "victorputinelu.github.io",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "VictorPutinelu <victorputinelu95@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/VictorPutinelu/victorputinelu.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pure": "^0.6.0",
+    "jquery": "^2.2.3"
+  }
+}
