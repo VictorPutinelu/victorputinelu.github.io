@@ -1,0 +1,39 @@
+Configurazione base strumenti Sviluppo Web
+=============================================
+* Il simbolo di dollaro "$" indica che il comando dev'essere eseguito nella shell.
+
+* Le parentesi [quadre] indicano l'inserimento di una di un pacchetto, ma non devono essere riportate
+
+* Esempio: 
+	$ bower search [nomepachetto] diventerà 
+	$ bower search pure
+
+Installazione di Bower attraverso npm
+---------------------------------------
+$ sudo npm install -g bower
+
+Inizializzazione di npm nella directory del progetto, creazione del json file
+----------------------------------------
+$ npm init
+
+Inizializzazione di Bower, creazione json file
+----------------------------------------
+$ bower init
+
+Ricerca dei pacchetti
+----------------------------------------
+$ bower search [nomepachetto]
+
+Installazione di PureCSS
+----------------------------------------
+'''
+--save - salva il nome e la versione del pacchetto in "bower.json"
+'''
+$ bower install --save pure
+
+Aggiornare un pacchetto
+----------------------------------------
+'''
+--save - aggiorna la versione del pacchetto nel file "bower.json"
+'''
+$ bower update --save [nomepachetto]
