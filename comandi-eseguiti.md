@@ -10,7 +10,7 @@
 
 ## Indice
 1. [Installazione di Bower](#installazione-di-Bower-attraverso-npm)
-6. [Aggiornare un pacchetto](#aggiornare-un-pacchetto)
+2. [Aggiornare un pacchetto](#aggiornare-un-pacchetto)
 
 ## Installazione di Bower attraverso npm
 
