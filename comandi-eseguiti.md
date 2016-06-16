@@ -9,7 +9,7 @@
 	$ bower search pure
 
 ## Indice
-1. (Installazione di Bower)[# installazione-di-bower-attraverso-npm]
+1. [Installazione di Bower](#installazione-di-Bower-attraverso-npm)
 
 
 ## Installazione di Bower attraverso npm
