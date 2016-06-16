@@ -9,34 +9,34 @@
 	$ bower search pure
 
 ## Installazione di Bower attraverso npm
-'''shell
+```javascript
 $ sudo npm install -g bower
-'''
+```
 
 ## Inizializzazione di npm nella directory del progetto, creazione del json ile
-'''shell
+```shell
 $ npm init
-'''
+```
 
 ## Inizializzazione di Bower, creazione json file
-'''shell
+```shell
 $ bower init
-'''
+```
 
 ## Ricerca dei pacchetti
-'''shell
+```shell
 $ bower search [nomepachetto]
-'''
+```
 
 ## Installazione di PureCSS
 --save - salva il nome e la versione del pacchetto in "bower.json"
-'''shell
+```shell
 $ bower install --save pure
-'''
+```
 ## Aggiornare un pacchetto
 
 
 --save - aggiorna la versione del pacchetto nel file "bower.json"
-'''shell
+```shell
 $ bower update --save [nomepachetto]
-'''
+```
