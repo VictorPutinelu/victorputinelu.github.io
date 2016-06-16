@@ -4,10 +4,12 @@
 
 * Le parentesi [quadre] indicano l'inserimento di una di un pacchetto, ma non devono essere riportate
 
-> Esempio:
+* Esempio:
+
+```shell
 	$ bower search [nomepachetto] diventerà 
 	$ bower search pure
-
+```
 ## Indice
 1. [Installazione di Bower](#installazione-di-Bower-attraverso-npm)
 2. [Aggiornare un pacchetto](#aggiornare-un-pacchetto)
