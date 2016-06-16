@@ -55,14 +55,10 @@ body{
 	bottom:15px;
 	width: 100px;
 	height: 100px;
-}
-
-.line{
-
-}
-
-.next > .line{
 	cursor: pointer;
+}
+
+.next > .line{	
 	position: absolute;
 	bottom: 25px;
 	background: #333;
@@ -76,7 +72,6 @@ body{
 }
 
 .next > .custom-line1{
-
 	transform: rotate(45deg);
 }
 
