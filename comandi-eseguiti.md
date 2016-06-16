@@ -29,15 +29,14 @@ $ bower search [nomepachetto]
 '''
 
 ## Installazione di PureCSS
-
-'''shell
 --save - salva il nome e la versione del pacchetto in "bower.json"
-'''
+'''shell
 $ bower install --save pure
-
+'''
 ## Aggiornare un pacchetto
 
-'''shell
+
 --save - aggiorna la versione del pacchetto nel file "bower.json"
-'''
+'''shell
 $ bower update --save [nomepachetto]
+'''
