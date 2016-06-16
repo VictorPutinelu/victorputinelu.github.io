@@ -10,6 +10,7 @@
 	$ bower search [nomepachetto] diventerà 
 	$ bower search pure
 ```
+
 ## Scorciatoie Tastiera
 * Accento grave: *ALTGR + '*
 
