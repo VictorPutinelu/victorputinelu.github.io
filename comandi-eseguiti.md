@@ -7,7 +7,7 @@
 * Esempio:
 
 ```shell
-	$ bower search [nomepachetto] diventerà 
+	$ bower search [nomepachetto] diventerà
 	$ bower search pure
 ```
 

@@ -1,81 +1,93 @@
-*{
-	font-family:"Open Sans", "Helvetica", "Droid Sans", sans-serif;
-
-}
-
-body{
-	margin:0;
-	padding:0;
-	background: #F2D6E6;
-	
-	width: 100%;
+body {
+	/*background: #F2D6E6;*/
+	background: #F3F3F3;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	position: relative;
 	text-align: center;
 }
 
-.landing{
-	max-width:1104px;
-	margin:0 auto;
+.arrow-container {
+  bottom: 2em;
+  position: fixed;
+  width: 100%;
+}
+  
+.arrow {
+  border-right: 4px solid;
+  border-bottom: 4px solid;
+  cursor: pointer;
+  display: block;
+  height: 2em;
+  margin: 0 auto;
+	transform: rotate(45deg);
+	/* Arrow up */
+	/*transform: scale(1, -1) rotate(45deg);*/
+  width: 2em;
 }
 
-.lion-img{
-	max-width:500px;
+.arrow:hover,
+.arrow:focus,
+.lion-footer {
+  color: #F2D6E6;
 }
 
-.lion-title, .lion-paragraph{
-	margin:0;
-	padding: 0;
+.landing {
+	margin: 0 auto;
 }
 
-.lion-title{
-	padding-right:15px;
+.lion-img {
+	background: url(../img/lion.png) no-repeat center center;
+	background-size: cover;
+	height: 79vh;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.arrow,
+.lion-title > h1,
+.lion-lyrics {
+  color: #61235A;
+}
+.lion-title > h1,
+.lion-title > .lion-subtitle {
+	padding-right: 15px;
 	text-align: right;
 }
 
-.subtitle{
-	color: #999;
+.lion-subtitle {
+	color: #F2D6E6;
+	letter-spacing: 1em;
 	text-transform: uppercase;
-	letter-spacing: 15px;
 }
 
-.lion-paragraph{
-	padding:0 15px;
+.lion-title {
+  background-color: #C170C1;
+}
+
+.lion-lyrics {
+  font-size: 1.5em;
+  background-color: #F2D6E6;
+}
+
+.lion-lyrics > h2,
+.lion-lyrics > p {
+	padding: 0 15px;
 	text-align: left;
-	text-align:justify;
+	text-align: justify;
 }
 
-.centered{/*outer - div align center*/
-	width: 100%;
-	text-align: center;
+.lion-table {
+  margin: 0 auto;
 }
 
-.next{
-	display: inline-block;/*inner - div align center*/
-	margin:0 auto;
-	position:fixed;
-	bottom:15px;
-	width: 100px;
-	height: 100px;
-	cursor: pointer;
+.lion-footer {
+  background-color: #61235a;
+  /*margin-top: 5vh;*/
+  padding: 5vh;
+  text-align: justify;
 }
-
-.next > .line{	
-	position: absolute;
-	bottom: 25px;
-	background: #333;
-	width: 50px;
-	height: 2px;
-	margin: 0;
-	padding: 0;
-}
-.next > .line:hover{
-	background: #999;
-}
-
-.next > .custom-line1{
-	transform: rotate(45deg);
-}
-
-.next > .custom-line2{
-	margin-left: 35px;
-	transform: rotate(315deg);
+.lion-footer > p {
+  font-size: 1.2em;
 }
